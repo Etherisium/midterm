@@ -77,13 +77,8 @@ padding: auto;}
 
 
 
-p2{ width: 200px; /* Set width of the element */
-    height: 100px; /* Set height of the element */
-    background-color:rgb(255, 230, 242); /* Background color */
-    border: 2.5px solid rgb(204, 0, 102); /* Border color and width */
-    border-radius: 15px; /* Border radius to make rounded corners */
-    padding: 10px;
-color:rgb(204, 0, 102) ;}
+       
+
 
 ul li a.active {
     background-color:rgb(148, 77, 255); /* Change background color for active item */
@@ -118,3 +113,11 @@ img {margin: 1px;
 .footer{color   : lightslategray;
     margin-left: 90px;
   }
+
+  p2{ width: 200px; /* Set width of the element */
+    height: 100px; /* Set height of the element */
+    background-color:rgb(252, 248, 255); /* Background color */
+    border: 2.5px solid rgb(134, 0, 230); /* Border color and width */
+    border-radius: 15px; /* Border radius to make rounded corners */
+    padding: 10px;
+color:rgb(204, 0, 102) ;}
