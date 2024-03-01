@@ -47,7 +47,8 @@ padding: auto;}
   p2 :hover{ color: #ff6b6b;}
 
 .textbox{margin:20px;
-    padding: 30px;}
+    padding: 30px;
+    text-align: center;}
 
     h2{ text-align: center;
         margin:auto;

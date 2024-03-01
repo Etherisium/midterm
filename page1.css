@@ -27,7 +27,7 @@ p {font-size: medium;
     .container{margin: 1px;
         padding: 5px;
     display:grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
     justify-content: center;
     }
     
@@ -95,3 +95,23 @@ ul li a.active {
     background-color:rgb(148, 77, 255); /* Change background color for active item */
   }
  
+  .shrek {margin: 1px;
+    width: 400px;
+    height: 700px;
+    display:block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;}
+
+    .pic1{margin: 1px;
+        width: 400px;
+        height: 700px;
+        display:block;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;}
+
+.footer{color   : lightslategray;
+    margin-left: 90px;
+  }
+
