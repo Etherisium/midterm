@@ -1,100 +1,115 @@
-body {background-color: rgb(244, 230, 255);display: flex;  
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
+body { margin: 100px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(244, 230, 255);}
 
-
+    img  {margin: 50px;
+        width: 550px;
+        height: 300px;
+        display:block;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;}
 
 
     
-h1{color:rgb(134, 0, 230);
-    font-family:"monospace";
-    text-align: center;
-    margin:50px;
-padding:40px;}
+h1{color:rgb(134, 0, 230);;
+        font-family:"monospace";
+        text-align: center;
+       margin: auto;
+    padding: auto;}
     
+ 
 
-
-a:hover {color: rgb(244, 230, 255)}
-
-
-p {font-size: medium;
-    font-family: "Comic Sans MS";
-    color:rgb(96, 15, 146);}
-
-
-
-    .container{margin: 1px;
-        padding: 5px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    justify-content: center;
-    }
+    ul li {font-family: cursive;
+        font-size: smaller;
+        color: rgb(31, 0, 77);}
     
+    ul li a:hover {
+        color: rgb(255, 204, 230); /* Change color on hover */
+      }
+p2 :hover{ color: #ff6b6b;}
 
-
-
-
-ul li {font-family: cursive;
-    font-size: smaller;
-    color: rgb(31, 0, 77);}
-
-ul li a:hover {
-    color: rgb(255, 204, 230); /* Change color on hover */
-  }
-
-  p1{Color:rgb(31, 0, 77);
+p1{Color:rgb(31, 0, 77);
     font-family: cursive;
     font-size: smaller;}
 
 
-p2{margin: auto;
-padding: auto;}
-  p2 :hover{ color: #ff6b6b;}
-
-.textbox{margin:20px;
-    padding: 30px;}
-
-    h2{ text-align: center;
+.para-1{font-size: medium;
+        font-family: "Comic Sans MS";
+        text-align: center;
+        color:rgb(96, 15, 146);}
+    
+.para-2{font-size: medium;
+        font-family: "Comic Sans MS";
+        text-align: center;
         margin:auto;
         padding:auto;
-        color:rgb(148, 77, 255);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        color:rgb(96, 15, 146);}
     
-    }
+h2{  text-align: center;
+    margin:auto;
+    padding:auto;
+            color:rgb(148, 77, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color:rgb(134, 0, 230); /* Background color of the navigation bar */
-        overflow: hidden;
-      }
-      li {
-        float: left;
-      }
+        }
 
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px; /* Padding around navigation items */
-        text-decoration: none;}
+.textbox{
+    text-align: center;
+    margin:100px auto;
+    padding:100px auto;}
+
+.container{margin: 1px;
+    padding: 5px;
+display:grid;
+grid-template-columns: 1fr 1fr ;
+justify-content: center;
+}
 
 
 
-p2{ width: 200px; /* Set width of the element */
-    height: 100px; /* Set height of the element */
-    background-color:rgb(255, 230, 242); /* Background color */
-    border: 2.5px solid rgb(204, 0, 102); /* Border color and width */
-    border-radius: 15px; /* Border radius to make rounded corners */
-    padding: 10px;
-color:rgb(204, 0, 102) ;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(134, 0, 230); /* Background color of the navigation bar */
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
 
-ul li a.active {
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* Padding around navigation items */
+    text-decoration: none;}
+
+
+.textbox1{ text-align: right;
+    margin:auto;
+    padding:auto;}
+
+
+    p2{ width: 200px; /* Set width of the element */
+        height: 100px; /* Set height of the element */
+        background-color:rgb(255, 230, 242); /* Background color */
+        border: 2.5px solid rgb(204, 0, 102); /* Border color and width */
+        border-radius: 15px; /* Border radius to make rounded corners */
+        padding: 10px;
+    color:rgb(204, 0, 102) ;}
+
+
+    
+   a:hover {color: #ff6b6b}
+
+   ul li a.active {
     background-color:rgb(148, 77, 255); /* Change background color for active item */
   }
- 
+
   .shrek {margin: 1px;
     width: 400px;
     height: 700px;
@@ -102,16 +117,3 @@ ul li a.active {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;}
-
-    .pic1{margin: 1px;
-        width: 400px;
-        height: 700px;
-        display:block;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;}
-
-.footer{color   : lightslategray;
-    margin-left: 90px;
-  }
-
