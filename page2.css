@@ -110,9 +110,10 @@ img {margin: 1px;
         gap: 1.5rem;
       }
 
-.footer{color   : lightslategray;
-    margin-left: 90px;
-  }
+
+      .footer{color   : rgb(31, 0, 77);
+        margin-left: 90px;
+      }
 
   p2{ width: 200px; /* Set width of the element */
     height: 100px; /* Set height of the element */

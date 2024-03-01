@@ -110,7 +110,7 @@ img {margin: 1px;
     margin-left: auto;
     margin-right: auto;}
 
-.footer{color   : lightslategray;
+.footer{color   : rgb(31, 0, 77);
     margin-left: 90px;
   }
 
@@ -120,4 +120,5 @@ img {margin: 1px;
     border: 2.5px solid rgb(134, 0, 230); /* Border color and width */
     border-radius: 15px; /* Border radius to make rounded corners */
     padding: 10px;
-color:rgb(204, 0, 102) ;}
+color:rgb(204, 0, 102) ;
+text-align: center }
