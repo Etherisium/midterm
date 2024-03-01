@@ -1,0 +1,109 @@
+body {background-color: rgb(255, 230, 238);display: flex;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+
+img {margin: 20px;
+    width: 700px;
+    height: 400px;
+    display:block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;}
+    
+h1{color:rgb(134, 0, 230);
+    font-family:"monospace";
+    text-align: center;
+    margin:50px;
+padding:40px;}
+    
+
+
+a:hover {color: #ff6b6b}
+.container{margin: 100px;
+        padding: 50px;}
+
+.para-1{font-size: medium;
+    font-family: "Comic Sans MS";
+    color:rgb(96, 15, 146);}
+
+.para-2{font-size: medium;
+    font-family: "Comic Sans MS";
+    color:rgb(96, 15, 146);}
+
+
+.xiao{margin: 20px;
+    width: 400px;
+    height: 400px;
+    display:block;
+    float:center;
+    border-radius: 10px;
+    margin-left: auto;
+      margin-right: auto;
+}
+
+ul li {font-family: cursive;
+    font-size: smaller;
+    color: rgb(31, 0, 77);}
+
+ul li a:hover {
+    color: rgb(255, 204, 230); /* Change color on hover */
+  }
+
+  p1{Color:rgb(31, 0, 77);
+    font-family: cursive;
+    font-size: smaller;}
+
+
+p2{margin: auto;
+padding: auto;}
+  p2 :hover{ color: #ff6b6b;}
+
+.textbox{margin:20px;
+    padding: 30px;}
+
+    h2{ text-align: center;
+        margin:auto;
+        padding:auto;
+        color:rgb(148, 77, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:rgb(134, 0, 230); /* Background color of the navigation bar */
+        overflow: hidden;
+      }
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px; /* Padding around navigation items */
+        text-decoration: none;}
+
+.container2{margin: 10px;
+    padding: 50px;
+display:grid;
+grid-template-columns: 1fr 1fr ;
+justify-content: center;}
+
+p2{ width: 200px; /* Set width of the element */
+    height: 100px; /* Set height of the element */
+    background-color:rgb(255, 230, 242); /* Background color */
+    border: 2.5px solid rgb(204, 0, 102); /* Border color and width */
+    border-radius: 15px; /* Border radius to make rounded corners */
+    padding: 10px;
+color:rgb(204, 0, 102) ;}
+
+ul li a.active {
+    background-color:rgb(148, 77, 255); /* Change background color for active item */
+  }
