@@ -18,13 +18,19 @@ padding:40px;}
 a:hover {color: rgb(244, 230, 255)}
 
 
-.para-1{font-size: medium;
+p {font-size: medium;
     font-family: "Comic Sans MS";
     color:rgb(96, 15, 146);}
 
-.para-2{font-size: medium;
-    font-family: "Comic Sans MS";
-    color:rgb(96, 15, 146);}
+
+
+    .container{margin: 1px;
+        padding: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    }
+    
 
 
 
@@ -88,41 +94,4 @@ color:rgb(204, 0, 102) ;}
 ul li a.active {
     background-color:rgb(148, 77, 255); /* Change background color for active item */
   }
-  /* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20px;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #ffcc00; /* Change to your desired hover color */
-}
-
-
-
-
-.copyright {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.copyright p {
-    margin: 0;
-}
+ 
