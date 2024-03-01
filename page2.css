@@ -101,14 +101,14 @@ img {margin: 1px;
     margin-right: auto;}
 
 
-.container {
+
+    .container { margin: 100px;
         display: flex;
         flex-direction: column;
         align-content: space-between;
         color: #fff;
         gap: 1.5rem;
       }
-
 
 .footer{color   : lightslategray;
     margin-left: 90px;

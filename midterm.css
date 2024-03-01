@@ -95,7 +95,7 @@ img {margin: 1px;
     margin-right: auto;}
 
 
-.container {
+.container { margin: 100px;
         display: flex;
         flex-direction: column;
         align-content: space-between;
