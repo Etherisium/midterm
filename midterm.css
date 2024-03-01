@@ -135,8 +135,17 @@ img {margin: 1px;
     margin-right: auto;}
 
 
-    .container{margin: 100px;
-        padding: 50px;
-        display:flex;
-        
-    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        color: #fff;
+        gap: 1.5rem;
+      }
+.shrek {margin: 1px;
+    width: 400px;
+    height: 700px;
+    display:block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;}
